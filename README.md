@@ -69,3 +69,26 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 2. Create a new def named `def recent:` on views.py inside blog directory
 
 - How to test is open [http://localhost:8000/blog/recent/](http://localhost:8000/blog/recent/)
+
+## `Template pada App`
+
+1. Go to mywebsite directory and open setting.py file
+2. Add app blog inside INSTALLED_APPS, see following below
+
+```
+INSTALLED_APPS = [
+  'django.contrib.admin',
+  'django.contrib.auth',
+  'django.contrib.contenttypes',
+  'django.contrib.sessions',
+  'django.contrib.messages',
+  'django.contrib.staticfiles',
+  'blog',
+]
+```
+
+3. Go to blog directory > Create a new directory named `templates` and Create a new directory `blog` inside templates directory
+4. Go to mywebsite > templates, and Cut `blog.html`
+5. Go to mywebsite > blog > templates > blog, and paste `blog.html` file
+
+- Test, Open [http://localhost:8000/blog/](http://localhost:8000/blog/)
