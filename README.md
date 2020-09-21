@@ -92,3 +92,5 @@ INSTALLED_APPS = [
 5. Go to mywebsite > blog > templates > blog, and paste `blog.html` file
 
 - Test, Open [http://localhost:8000/blog/](http://localhost:8000/blog/)
+- Change the name `blog.html` to be `index.html`
+- Test again, Open [http://localhost:8000/blog/](http://localhost:8000/blog/)
