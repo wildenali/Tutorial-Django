@@ -18,11 +18,12 @@ from django.contrib import admin
 
 from . import views
 from blog import views as blogViews
+from about import views as aboutViews
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^about/$', views.about),
     url(r'^pageLama/$', views.index_pageLama),
+    url(r'^admin/', admin.site.urls),
+    url(r'^about/$', aboutViews.index),
     url(r'^blog/$', blogViews.index),
     url(r'^$', views.index),
 ]
