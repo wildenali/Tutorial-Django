@@ -18,3 +18,11 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 - Go to mywebsite directory `$ cd mywebsite`
 - Type `$ manage.py runserver` to run the django server
 - Open [http://localhost:8000/](http://localhost:8000/) in web browser
+
+## `Pengenalan Project`
+
+1. Type some script in urls.py
+2. Test in web browser
+
+- [http://localhost:8000](http://localhost:8000)
+- [http://localhost:8000/about](http://localhost:8000/about)

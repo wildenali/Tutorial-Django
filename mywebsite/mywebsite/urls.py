@@ -22,7 +22,11 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Halow dunia")
 
+def about(request):
+    return HttpResponse("Ini about")
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^about/$', about),
     url(r'^$', index),
 ]
