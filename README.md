@@ -114,5 +114,5 @@ INSTALLED_APPS = [
 
 1. Go to mywebsite\mywebsite\views.py
 2. Change context in views.py
-3. Go to mywebsite\temlates\index.html
+3. Go to mywebsite\templates\index.html
 4. Change some script in index.html
