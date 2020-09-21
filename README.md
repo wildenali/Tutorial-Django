@@ -164,5 +164,8 @@ STATICFILES_DIRS = [
     - \img
 - templates
 
-12. Move banner_blog.png to Django_StaticFileAddPictures\blog\static\blog\img
-13. Move banner_about.png to Django_StaticFileAddPictures\about\static\about\img
+12. Move `banner_blog.png` to Django_StaticFileAddPictures\blog\static\blog\img
+13. Move `banner_about.png` to Django_StaticFileAddPictures\about\static\about\img
+14. Create `index.html` file inside Django_StaticFileAddPictures\templates
+15. Create `view.py` file inside Django_StaticFileAddPictures\mywebsite
+16. Edit `urls.py` file inside Django_StaticFileAddPictures\mywebsite
