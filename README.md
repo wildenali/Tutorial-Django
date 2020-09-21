@@ -174,3 +174,9 @@ STATICFILES_DIRS = [
 - Create `urls.py` file inside Django_StaticFileAddPictures\blog
 - Edit `views.py` file inside Django_StaticFileAddPictures\blog
 - Create `index.html` file inside Django_StaticFileAddPictures\blog\templates\blog
+
+18. Static file in about app
+
+- Create `urls.py` file inside Django_StaticFileAddPictures\about
+- Edit `views.py` file inside Django_StaticFileAddPictures\about
+- Create `index.html` file inside Django_StaticFileAddPictures\about\templates\about
