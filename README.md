@@ -31,3 +31,10 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 
 1. Create a file named views.py inside mywebsite directory
 2. Cut script from urls.py and paste to views.py then edit little bit
+
+## `Pengenalan Templates`
+
+1. Go to settings.py and find TEMPLATES =[] (line 54)
+2. Change `'DIRS': [],` to be `'DIRS': ['templates'],`
+3. Create a directory named `templates`
+4. Create a file named `index.html` inside templates directory
