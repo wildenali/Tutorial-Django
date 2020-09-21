@@ -3,7 +3,11 @@ from django.shortcuts import render
 
 # method view
 def index(request):
-  return render(request, 'index.html')
+  context = {
+    'judul': 'Web App dengan Django',
+    'pengetik': 'Wilden Ali'
+  }
+  return render(request, 'index.html', context)
 
 def index_pageLama(request):
   judul = "<h1>Ini Home Page</h1>"

@@ -94,3 +94,9 @@ INSTALLED_APPS = [
 - Test, Open [http://localhost:8000/blog/](http://localhost:8000/blog/)
 - Change the name `blog.html` to be `index.html`
 - Test again, Open [http://localhost:8000/blog/](http://localhost:8000/blog/)
+
+## `Template Variable`
+
+1. Passing the variable from views.py to index.html
+2. Edit mywebsite\views.py and tamplates\index.html
+3. Test with [http://localhost:8000/](http://localhost:8000/)
