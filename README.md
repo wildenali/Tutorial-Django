@@ -61,4 +61,4 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 7. Give some script in `veiws.py` file in blog directory
 8. Create a file named `about.html` in templates directory
 9. Edit script in urls.py file
-10. Test with open the url [http://localhost:8000/blog/](http://localhost:8000/blog/) in web browser
+10. Test with open the url [http://localhost:8000/about/](http://localhost:8000/about/) in web browser
