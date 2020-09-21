@@ -38,3 +38,10 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 2. Change `'DIRS': [],` to be `'DIRS': ['templates'],`
 3. Create a directory named `templates`
 4. Create a file named `index.html` inside templates directory
+
+## `Pengenalan App`
+
+1. Create a new App
+
+- Stop server
+- Create an App `$ python manage.py startapp blog`
