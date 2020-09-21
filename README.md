@@ -127,3 +127,6 @@ INSTALLED_APPS = [
 - Go to mywebsite directory `$ cd Django_StaticFileAddPictures`
 - Type `$ manage.py runserver` to run the django server
 - Open [http://localhost:8000/](http://localhost:8000/) in web browser
+
+4. Creata blog app, type in terminal `$ python manage.py startapp blog`
+5. Creata about app, type in terminal `$ python manage.py startapp about`
