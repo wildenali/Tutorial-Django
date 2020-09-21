@@ -62,3 +62,7 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 8. Create a file named `about.html` in templates directory
 9. Edit script in urls.py file
 10. Test with open the url [http://localhost:8000/about/](http://localhost:8000/about/) in web browser
+
+## `Menggunakan URL pada App`
+
+1. Create a `urls.py` file inside blog directory
