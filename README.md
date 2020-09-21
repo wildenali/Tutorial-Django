@@ -109,3 +109,10 @@ INSTALLED_APPS = [
 10. Passing the variable news from blog\views.py to blog\templates\blog\index.html
 11. Edit blog\views.py
 12. Test with [http://localhost:8000/blog/news/](http://localhost:8000/blog/news/)
+
+## `Template Tags`
+
+1. Go to mywebsite\mywebsite\views.py
+2. Change context in views.py
+3. Go to mywebsite\temlates\index.html
+4. Change some script in index.html

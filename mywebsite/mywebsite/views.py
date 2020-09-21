@@ -4,8 +4,14 @@ from django.shortcuts import render
 # method view
 def index(request):
   context = {
-    'judul': 'Web App dengan Django',
-    'pengetik': 'Wilden Ali'
+    'judul': 'Web dengan Django Framework',
+    'subjudul': 'Selamat Datang',
+    'nav': [
+      ['/','Home'],
+      ['/blog','Blog'],
+      ['/about','About'],
+      ['/contact','Contact'],
+    ]
   }
   return render(request, 'index.html', context)
 

@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Selamat Datang | Wilden Ali</title>
+    <title>{{ subjudul }} | Wilden Ali</title>
   </head>
   <body>
-    <h1>{{ judul }}</h1>
-    <p>{{ pengetik }}</p>
-
+    <h1>{{ subjudul }} di {{ judul }}</h1>
     <ul>
-      <li>
-        <a href="/" title="">Home</a>
-      </li>
-      <li>
-        <a href="/about" title="">About</a>
-      </li>
-      <li>
-        <a href="/blog/" title="">Blog</a>
-      </li>
+      <!-- Template Tags -->
+      {% for link,name in nav %}
+      <li><a href="{{link}}">{{name}}</a></li>
+      {% endfor %}
     </ul>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia excepturi,
+      unde repellat voluptate incidunt sequi sed voluptatibus id tenetur aut
+      itaque nobis perspiciatis dolorum ratione minus eum quae earum eligendi
+      non architecto. Modi minus doloribus veritatis assumenda, delectus
+      reiciendis laboriosam neque! Dignissimos nulla, nihil itaque velit ratione
+      nam dolorum quis accusamus ipsum a veniam natus tenetur enim recusandae
+      quasi eos odio assumenda, vitae, blanditiis culpa asperiores cumque? At,
+      autem suscipit provident fugit nostrum ad beatae eveniet voluptatem
+      laborum quis debitis earum culpa blanditiis, saepe numquam exercitationem.
+      Voluptatibus, tempora expedita commodi hic eius deserunt consequatur
+      voluptas dolor impedit culpa officia voluptatem.
+    </p>
   </body>
 </html>
