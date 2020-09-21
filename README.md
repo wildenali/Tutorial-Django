@@ -116,3 +116,14 @@ INSTALLED_APPS = [
 2. Change context in views.py
 3. Go to mywebsite\templates\index.html
 4. Change some script in index.html
+
+# `Django Static File Add Pictures`
+
+0. Make sure you are in Env mode (Activate the Env, type in the terminal `$ D:\Wilden github\Tutorial-Django>Env\Scripts\activate.bat`)
+1. Create project `$ django-admin startproject mywebsite`.
+2. Rename the app form `mywebsite` to be `Django_StaticFileAddPictures`
+3. How to run django server.
+
+- Go to mywebsite directory `$ cd Django_StaticFileAddPictures`
+- Type `$ manage.py runserver` to run the django server
+- Open [http://localhost:8000/](http://localhost:8000/) in web browser
