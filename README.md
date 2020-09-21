@@ -130,3 +130,22 @@ INSTALLED_APPS = [
 
 4. Creata blog app, type in terminal `$ python manage.py startapp blog`
 5. Creata about app, type in terminal `$ python manage.py startapp about`
+6. Create a folder named `templates` inside Django_StaticFileAddPicture folder
+7. Create a folder named `static\img` inside Django_StaticFileAddPicture folder
+8. Setting INSTALLED_APP, TEMPLATES and STATICFILES_DIRS in setting.py
+
+- Open Django_StaticFileAddPicture\mywebsite\settings.py
+- Add 'blog', 'about', in INSTALLED_APP
+- Edit to be 'DIRS': ['templates'], in TEMPLATES
+- Bottom of STATIC_URL='/static/' add script like following below
+
+```
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+```
+
+9. Test pictures
+
+- Move the banner_home.png to folder static\img\banner_home.png
+- Open [http://localhost:8000/static/img/banner_home.png](http://localhost:8000/static/img/banner_home.png) in web browser
