@@ -106,3 +106,6 @@ INSTALLED_APPS = [
 7. Passing the variable from blog\views.py to blog\templates\blog\index.html
 8. Edit blog\views.py
 9. Test with [http://localhost:8000/blog/cerita/](http://localhost:8000/blog/cerita/)
+10. Passing the variable news from blog\views.py to blog\templates\blog\index.html
+11. Edit blog\views.py
+12. Test with [http://localhost:8000/blog/news/](http://localhost:8000/blog/news/)

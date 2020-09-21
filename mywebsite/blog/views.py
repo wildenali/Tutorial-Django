@@ -20,3 +20,10 @@ def cerita(request):
     'pengetik': 'Otong Surotong'
   }
   return render(request, 'blog/index.html', context)
+
+def news(request):
+  context = {
+    'judul': 'Ini Blog News',
+    'pengetik': 'Michael Ucup'
+  }
+  return render(request, 'blog/index.html', context)
