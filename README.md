@@ -26,3 +26,8 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 
 - [http://localhost:8000](http://localhost:8000)
 - [http://localhost:8000/about](http://localhost:8000/about)
+
+## `Pengenalan Views`
+
+1. Create a file named views.py inside mywebsite directory
+2. Cut script from urls.py and paste to views.py then edit little bit
