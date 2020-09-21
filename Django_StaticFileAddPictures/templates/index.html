@@ -7,13 +7,15 @@
     <title>{{judul}}</title>
   </head>
   <body>
-    <img style="width: 100%" src="{% static "img/banner_home.png" %}" alt=""/>
-    <h1>{{subjudul}}</h1>
+    <!-- <img style="width: 100%" src="{% static 'img/banner_home.png' %}" alt="" /> -->
+    <img style="width: 100%" src="{% static banner %}" alt="" />
 
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/blog">Blog</a></li>
       <li><a href="/about">About</a></li>
     </ul>
+
+    <h1>{{subjudul}}</h1>
   </body>
 </html>
