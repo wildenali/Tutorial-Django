@@ -45,3 +45,9 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 
 - Stop server
 - Create an App `$ python manage.py startapp blog`
+- Run server `$ python manage.py runserver`
+
+2. Give some script in `veiws.py` file in blog directory
+3. Create a file named `blog.html`
+4. Edit script in urls.py file
+5. Test with open the url [http://localhost:8000/blog/](http://localhost:8000/blog/) in web browser
