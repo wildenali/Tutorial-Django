@@ -149,3 +149,20 @@ STATICFILES_DIRS = [
 
 - Move the banner_home.png to folder static\img\banner_home.png
 - Open [http://localhost:8000/static/img/banner_home.png](http://localhost:8000/static/img/banner_home.png) in web browser
+
+10. Create folder inside blog app so look like this
+
+- static
+  - \blog
+    - \img
+- templates
+
+11. Create folder inside about app so look like this
+
+- static
+  - \about
+    - \img
+- templates
+
+12. Move banner_blog.png to Django_StaticFileAddPictures\blog\static\blog\img
+13. Move banner_about.png to Django_StaticFileAddPictures\about\static\about\img
