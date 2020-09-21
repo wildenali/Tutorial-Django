@@ -66,3 +66,6 @@ Belajar Django Framework, sumber referensi tutorial dari channel Youtube Kelas T
 ## `Menggunakan URL pada App`
 
 1. Create a `urls.py` file inside blog directory
+2. Create a new def named `def recent:` on views.py inside blog directory
+
+- How to test is open [http://localhost:8000/blog/recent/](http://localhost:8000/blog/recent/)
