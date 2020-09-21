@@ -8,8 +8,15 @@ def index(request):
     'judul': 'Wadidaw Blog Qita',
     'pengetik': 'Mang Oleh'
   }
-  # return render(request, 'blog/index.html', context)
-  return render(request, 'index.html', context)
+  return render(request, 'blog/index.html', context)
+  # return render(request, 'index.html', context)
 
 def recent(request):
   return HttpResponse('<h1>Ini adalah recent post</h1>')
+
+def cerita(request):
+  context = {
+    'judul': 'Ini Blog Cerita',
+    'pengetik': 'Otong Surotong'
+  }
+  return render(request, 'blog/index.html', context)
