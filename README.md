@@ -196,3 +196,6 @@ STATICFILES_DIRS = [
 
 - For Blog app, type in terminal `$ python manage.py startapp blog`
 - For Blog app, type in terminal `$ python manage.py startapp about`
+
+5. Create static folder and templates folder
+6. Inside static folder create css, img, js and vendor folder
