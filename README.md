@@ -252,3 +252,21 @@ STATICFILES_DIRS = [
 
 11. Create a views.py file on Django_withBootstrap\mywebsite
 12. Run server `$ python manage.py runserver`
+
+### Template Inheritance and Include
+
+1. Download assets images from [https://github.com/kelasterbuka/django1.11_LTS_tutorial/tree/master/14_Template%20Inheritance%20dan%20Include/01%20-%20Assets](https://github.com/kelasterbuka/django1.11_LTS_tutorial/tree/master/14_Template%20Inheritance%20dan%20Include/01%20-%20Assets)
+2. Crete folder static inside Django_withBootstrap\blog
+
+- Create `static` folder inside Django_withBootstrap\blog
+- Create folder named `blog` inside Django_withBootstrap\blog\static
+- Create 3 folder inside Django_withBootstrap\blog\static\blog namely `css`, `img`, and `js`
+
+3. Crete folder static inside Django_withBootstrap\about
+
+- Create `static` folder inside Django_withBootstrap\about
+- Create folder named `about` inside Django_withBootstrap\about\static
+- Create 3 folder inside Django_withBootstrap\about\static\about namely `css`, `img`, and `js`
+
+4. Move the `bannerBlog.png` to Django_withBootstrap\blog\static\blog\img
+5. Move the `bannerAbout.png` to Django_withBootstrap\about\static\about\img
