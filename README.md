@@ -208,3 +208,44 @@ STATICFILES_DIRS = [
 - Create folder named bootstrap inside Django_withBootstrap\static
 - Copy `bootstrap.css` from bootstrap-4.5.2-dist\css folder and Paste to Django_withBootstrap\static\bootstrap folder
 - Copy `bootstrap.js` from bootstrap-4.5.2-dist\js folder and Paste to Django_withBootstrap\static\bootstrap folder
+
+10. Setup settings.py, change the script like following below
+
+```
+INSTALLED_APPS = [
+  'django.contrib.admin',
+  'django.contrib.auth',
+  'django.contrib.contenttypes',
+  'django.contrib.sessions',
+  'django.contrib.messages',
+  'django.contrib.staticfiles',
+  'blog',
+  'about',
+]
+```
+
+```
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': ['templates'],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
+
+and add STATICFILES_DIRS script below STATIC_URL = '/static/'
+
+```
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+```
