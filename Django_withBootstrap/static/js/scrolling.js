@@ -3,7 +3,10 @@ $(window).scroll(function () {
 
   console.log(scroll);
 
-  if (scroll > 300) {
+  document.getElementById("myBody").style.marginTop =
+    -100 - 0.5 * scroll + "px";
+
+  if (scroll > 200) {
     $("#myNav").addClass("bg-dark");
   } else {
     $("#myNav").removeClass("bg-dark");
