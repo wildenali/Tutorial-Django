@@ -271,3 +271,4 @@ STATICFILES_DIRS = [
 4. Move the `bannerBlog.png` to Django_withBootstrap\blog\static\blog\img
 5. Move the `bannerAbout.png` to Django_withBootstrap\about\static\about\img
 6. Create a folder named snippets in Django_withBootstrap\templates
+8. Done with Include and Inheritance for index.html and base.html
