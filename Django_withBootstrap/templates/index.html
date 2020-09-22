@@ -4,49 +4,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{% static 'vendor/bootstrap/bootstrap.css' %}"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{% static 'css/styles.css' %}"
-    />
+    {% include 'snippets/styles.html' %}
     <title>{{title}}</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark" id="myNav">
-      <a class="navbar-brand" href="#">
-        <img style="height: 30px" src="{% static 'img/logo.png' %}" alt="" />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/" title="home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/blog" title="blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about" title="about">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    {% include 'snippets/navbar.html' %}
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container text-white text-center">
@@ -82,21 +44,6 @@
       </div>
     </div>
 
-    <script
-      type="text/javascript"
-      src="{% static 'vendor/jquery/jquery-3.5.1.slim.min.js' %}"
-    ></script>
-    <script
-      type="text/javascript"
-      src="{% static 'vendor/popper/popper.min.js' %}"
-    ></script>
-    <script
-      type="text/javascript"
-      src="{% static 'vendor/bootstrap/bootstrap.js' %}"
-    ></script>
-    <script
-      type="text/javascript"
-      src="{% static 'js/scrolling.js' %}"
-    ></script>
+    {% include 'snippets/scripts.html' %}
   </body>
 </html>
