@@ -251,3 +251,4 @@ STATICFILES_DIRS = [
 ```
 
 11. Create a views.py file on Django_withBootstrap\mywebsite
+12. Run server `$ python manage.py runserver`
