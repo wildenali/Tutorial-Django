@@ -9,17 +9,20 @@
       type="text/css"
       href="{% static 'css/styles.css' %}"
     />
+    <link rel="stylesheet" type="text/css" href="{% static app_css %}" />
     <title>{{judul}}</title>
   </head>
   <body>
     <!-- <img style="width: 100%" src="{% static 'img/banner_home.png' %}" alt="" /> -->
     <img id="banner" src="{% static banner %}" alt="" />
 
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
 
     <h1>{{subjudul}}</h1>
   </body>
