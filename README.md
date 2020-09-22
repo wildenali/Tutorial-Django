@@ -180,3 +180,14 @@ STATICFILES_DIRS = [
 - Create `urls.py` file inside Django_StaticFileAddPictures\about
 - Edit `views.py` file inside Django_StaticFileAddPictures\about
 - Create `index.html` file inside Django_StaticFileAddPictures\about\templates\about
+
+# `Django with Bootstrap`
+
+0. Make sure you are in Env mode (Activate the Env, type in the terminal `$ D:\Wilden github\Tutorial-Django>Env\Scripts\activate.bat`)
+1. Create project `$ django-admin startproject mywebsite`.
+2. Rename the app form `mywebsite` to be `Django_withBootstrap`
+3. How to run django server.
+
+- Go to mywebsite directory `$ cd Django_withBootstrap`
+- Type `$ python manage.py runserver` to run the django server
+- Open [http://localhost:8000/](http://localhost:8000/) in web browser
