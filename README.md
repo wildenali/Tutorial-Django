@@ -199,3 +199,11 @@ STATICFILES_DIRS = [
 
 5. Create static folder and templates folder
 6. Inside static folder create css, img, js and vendor folder
+7. Download the assets for project. The link is [https://github.com/kelasterbuka/django1.11_LTS_tutorial/tree/master/13_Static_File_menambah_bootstrap_dan_js/01-Assets](https://github.com/kelasterbuka/django1.11_LTS_tutorial/tree/master/13_Static_File_menambah_bootstrap_dan_js/01-Assets).
+8. Bootstrap setup
+
+- Go to [https://getbootstrap.com/docs/4.5/getting-started/download/](https://getbootstrap.com/docs/4.5/getting-started/download/)
+- On <b>Compiled CSS and JS</b> click `Download` button.
+- Create folder named bootstrap inside Django_withBootstrap\static
+- Copy `bootstrap.css` from bootstrap-4.5.2-dist\css folder and Paste to Django_withBootstrap\static\bootstrap folder
+- Copy `bootstrap.js` from bootstrap-4.5.2-dist\js folder and Paste to Django_withBootstrap\static\bootstrap folder
