@@ -191,3 +191,8 @@ STATICFILES_DIRS = [
 - Go to mywebsite directory `$ cd Django_withBootstrap`
 - Type `$ python manage.py runserver` to run the django server
 - Open [http://localhost:8000/](http://localhost:8000/) in web browser
+
+4. Creata blog and about app
+
+- For Blog app, type in terminal `$ python manage.py startapp blog`
+- For Blog app, type in terminal `$ python manage.py startapp about`
