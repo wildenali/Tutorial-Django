@@ -249,3 +249,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 ```
+
+11. Create a views.py file on Django_withBootstrap\mywebsite
