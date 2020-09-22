@@ -9,6 +9,11 @@
       type="text/css"
       href="{% static 'vendor/bootstrap/bootstrap.css' %}"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/styles.css' %}"
+    />
     <title>{{title}}</title>
   </head>
   <body>
@@ -44,7 +49,7 @@
     </nav>
 
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+      <div class="container text-white text-center">
         <h1 class="display-4">{{heading}}</h1>
         <p class="lead">{{subheading}}</p>
       </div>
