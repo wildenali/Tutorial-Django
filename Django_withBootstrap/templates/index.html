@@ -1,24 +1,38 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'vendor/bootstrap/bootstrap.css' %}"
+    />
     <title>{{title}}</title>
   </head>
   <body>
-    <h1>{{heading}}</h1>
-    <p>{{subheading}}</p>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni qui
-      beatae, assumenda enim nobis, soluta temporibus amet quidem fugiat
-      consectetur sequi quam odio quia, est recusandae rerum facilis? Quas
-      consequuntur, dolorem in aut nihil esse accusamus tenetur repudiandae quos
-      expedita, ut deserunt. Praesentium illo eaque sequi deserunt quos laborum
-      deleniti fugit enim modi non sint ipsa, earum mollitia asperiores facere
-      id velit voluptas nemo eligendi doloremque perspiciatis animi eos debitis
-      ab. Atque accusantium nemo ipsam itaque excepturi expedita unde doloribus,
-      blanditiis quis quo. Quos vitae aut quibusdam minus molestiae sapiente
-      nulla, reiciendis corporis id alias facere, suscipit inventore cum unde.
-    </p>
+    <nav class="container">
+      <h1>{{heading}}</h1>
+      <p>{{subheading}}</p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni qui
+        beatae, assumenda enim nobis, soluta temporibus amet quidem fugiat
+        consectetur sequi quam odio quia, est recusandae rerum facilis? Quas
+        consequuntur, dolorem in aut nihil esse accusamus tenetur repudiandae
+        quos expedita, ut deserunt. Praesentium illo eaque sequi deserunt quos
+        laborum deleniti fugit enim modi non sint ipsa, earum mollitia
+        asperiores facere id velit voluptas nemo eligendi doloremque
+        perspiciatis animi eos debitis ab. Atque accusantium nemo ipsam itaque
+        excepturi expedita unde doloribus, blanditiis quis quo. Quos vitae aut
+        quibusdam minus molestiae sapiente nulla, reiciendis corporis id alias
+        facere, suscipit inventore cum unde.
+      </p>
+    </nav>
+
+    <script
+      type="text/javascript"
+      src="{% static 'vendor/bootstrap/bootstrap.js' %}"
+    ></script>
   </body>
 </html>
