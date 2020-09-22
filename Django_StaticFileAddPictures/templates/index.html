@@ -4,11 +4,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/styles.css' %}"
+    />
     <title>{{judul}}</title>
   </head>
   <body>
     <!-- <img style="width: 100%" src="{% static 'img/banner_home.png' %}" alt="" /> -->
-    <img style="width: 100%" src="{% static banner %}" alt="" />
+    <img id="banner" src="{% static banner %}" alt="" />
 
     <ul>
       <li><a href="/">Home</a></li>
