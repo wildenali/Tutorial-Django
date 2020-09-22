@@ -17,7 +17,7 @@
     <title>{{title}}</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark" id="myNav">
       <a class="navbar-brand" href="#">
         <img style="height: 30px" src="{% static 'img/logo.png' %}" alt="" />
       </a>
@@ -92,6 +92,10 @@
     <script
       type="text/javascript"
       src="{% static 'vendor/bootstrap/bootstrap.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'js/scrolling.js' %}"
     ></script>
   </body>
 </html>
