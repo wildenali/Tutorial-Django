@@ -284,3 +284,4 @@ STATICFILES_DIRS = [
 4. Click Image [MySQL Installer for Windows](https://dev.mysql.com/downloads/windows/installer/8.0.html)
 5. Click `Download` button in <b>Windows (x86, 32-bit), MSI Installer</b>
 6. Click `No thanks, just start my download.` link, it will be download the installer of MySQL installer web community
+7. Install the MySQL Installer
