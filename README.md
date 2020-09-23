@@ -277,11 +277,24 @@ STATICFILES_DIRS = [
 - Create ulrs.py inside Django_withBootstrap\blog
 - Create templates folder inside Django_withBootstrap\blog
 
-# `Setup MySQL in Windows`
-1. Go to [https://www.mysql.com/downloads/](https://www.mysql.com/downloads/)
-2. Click `MySQL Community (GPL) Downloads »` link. It will going to  [https://dev.mysql.com/downloads/](https://dev.mysql.com/downloads/)
-3. Click [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
-4. Click Image [MySQL Installer for Windows](https://dev.mysql.com/downloads/windows/installer/8.0.html)
-5. Click `Download` button in <b>Windows (x86, 32-bit), MSI Installer</b>
-6. Click `No thanks, just start my download.` link, it will be download the installer of MySQL installer web community
-7. Install the MySQL Installer
+# `Setup MySQL + XAMPP in Windows`
+1. Install XAMPP [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+2. Start Apache and MySQL
+3. Access MySQL in the terminal.
+- Open terminal
+- Type `$ mysql -u root -p`. pw: `` ga pake password, enter aja
+4. Go to [https://www.mysql.com/downloads/](https://www.mysql.com/downloads/)
+5. Click `MySQL Community (GPL) Downloads »` link. It will going to  [https://dev.mysql.com/downloads/](https://dev.mysql.com/downloads/)
+6. Click [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+7. Click Image [MySQL Installer for Windows](https://dev.mysql.com/downloads/windows/installer/8.0.html)
+9. Click `Download` button in <b>Windows (x86, 32-bit), MSI Installer</b>
+10. Click `No thanks, just start my download.` link, it will be download the installer of MySQL installer web community
+11. Install the MySQL Installer, just install MySQL Connector/C++
+12. Install MySQL in the Django Project
+- Make sure you are in Env mode (Activate the Env, type in the terminal `$ D:\Wilden github\Tutorial-Django>Env\Scripts\activate.bat`)
+- Goto [https://www.lfd.uci.edu/~gohlke/pythonlibs/](https://www.lfd.uci.edu/~gohlke/pythonlibs/) to download Mysqlclient
+- Choose `mysqlclient‑1.4.6‑cp38‑cp38‑win32.whl`. Before that please check python version `$ python`. For example if yout python version use 3.8.5 and 32bit so download the myssqlclient `xx-cp38-win32.whl`
+- Move the `mysqlclient‑1.4.6‑cp38‑cp38‑win32.whl` file to your folder project `D:\Wilden github\Tutorial-Django`
+- Install wheel `$ pip install wheel` for running the .whl file
+- Install .whl file `$ pip install mysqlclient‑1.4.6‑cp38‑cp38‑win32.whl`
+- To check your mysqlclient already installed type `$ pip list` and if mysqlclient on the list that mean your mysqlclient already installed
